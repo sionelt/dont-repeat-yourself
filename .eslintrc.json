@@ -1,16 +1,10 @@
 {
   "parser": "babel-eslint",
-  "extends": [
-    "airbnb",
-    "prettier",
-    "plugin:prettier/recommended"
-  ],
+  "extends": ["airbnb", "prettier", "plugin:prettier/recommended"],
   "env": {
     "browser": true
   },
-  "plugins": [
-    "prettier"
-  ],
+  "plugins": ["prettier"],
   "rules": {
     "react/forbid-prop-types": false,
     "import/prefer-default-export": false,
